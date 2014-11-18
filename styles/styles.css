@@ -14,15 +14,24 @@
     
 }
 
-body {
-  padding:0;
-  margin:0;
-  background:#FFFFFF;
+body 
+{
+    padding:0;
+    margin:0;
+    background:#FFFFFF;
 }
-canvas {
-  display:block;
-  margin:30px auto 0;
+canvas 
+{
+    display:block;
+    margin:30px auto 0;
     margin-top: 100px;
-  border:1px dashed #ccc;
-  background:#000;
+    border:1px dashed #ccc;
+    background:#000;
+}
+
+#sieve
+{
+    margin-top: 100px;
+    margin-bottom: 90px;
+    
 }
