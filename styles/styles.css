@@ -35,3 +35,14 @@ canvas
     margin-bottom: 90px;
     
 }
+
+.scroller
+{
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+.welcome
+{
+    margin-top: 100px   
+}
