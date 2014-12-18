@@ -18,7 +18,7 @@ document.title = "Eratosthene's Sieve"
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
 
 <script>
-function eratosthenes() {
+function sieve() {
 	$("#output").html("");
 	var n = $("#qu").val();
 
@@ -56,7 +56,7 @@ function eratosthenes() {
 	<div class="row">
 		<h1> Eratosthene's Sieve</h1>
 		<h3>In the box, put the number you want to list to (100 will list all primes from 0-100)</h3>
-		<input type="number" id="qu" onchange="eratosthenes()">
+		<input type="number" id="qu" onchange="sieve()">
 
 		<div id="output"></div>
 	</div>
