@@ -1,9 +1,5 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-
-<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
 <!-- Optional theme -->
@@ -269,6 +265,7 @@ function drawStarfield() {
 }
 
 //The initial function called when the page first loads. Loads the ship, enemy and starfield images and adds the event listeners for the arrow keys. It then calls the gameLoop function.
+
 function init() {
 	canvas = document.getElementById('canvas');
 	ctx = canvas.getContext('2d');
@@ -283,7 +280,7 @@ function init() {
 	document.addEventListener('keydown', keyDown, false);
 	document.addEventListener('keyup', keyUp, false);
 	canvas.addEventListener('click', gameStart, false);
-	gameLoop();
+	//gameLoop();
 }
 
 function gameStart() {
@@ -359,6 +356,4 @@ window.onload = init;
 
 </script>
 <canvas id="canvas" width="600" height="600"></canvas>
-
-<audio autoplay loop>
-	<source src="http://www.weebly.com/uploads/3/2/1/8/32180299/bgm.mp3" type="audio/mp3">Pew. Pew.</audio>
+<audio autoplay loop><source src="http://www.weebly.com/uploads/3/2/1/8/32180299/bgm.mp3" type="audio/mp3">Pew. Pew.</audio>
